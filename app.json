@@ -19,8 +19,11 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.socheee.TestApp"
     },
+    
+
     "web": {
       "bundler": "metro",
       "output": "static",
@@ -31,6 +34,11 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0ceb0fbe-0106-4b42-bb5b-3b1141891d2d"
+      }
     }
   }
 }
